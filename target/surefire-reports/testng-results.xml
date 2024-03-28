@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-29T00:24:47 IST" name="Surefire suite" finished-at="2024-03-29T00:24:57 IST" duration-ms="9767">
+    <groups>
+    </groups>
+    <test started-at="2024-03-29T00:24:47 IST" name="Surefire test" finished-at="2024-03-29T00:24:57 IST" duration-ms="9767">
+      <class name="Task.Task.FlipkartTest">
+        <test-method signature="OpenFlipcard()[pri:0, instance:Task.Task.FlipkartTest@3c153a1]" started-at="2024-03-29T00:24:47 IST" name="OpenFlipcard" finished-at="2024-03-29T00:24:57 IST" duration-ms="9732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenFlipcard -->
+      </class> <!-- Task.Task.FlipkartTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
