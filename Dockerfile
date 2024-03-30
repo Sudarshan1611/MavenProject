@@ -14,7 +14,7 @@ COPY src ./src
 RUN mvn clean install -DskipTests
 
 # Expose any ports the app is expecting in runtime
-# EXPOSE 8080
+# EXPOSE 8096
 
 # Set the entry point to run the Maven tests
 CMD ["mvn", "test"]
