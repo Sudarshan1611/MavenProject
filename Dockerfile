@@ -11,7 +11,7 @@ COPY pom.xml .
 COPY src ./src
 
 # Run Maven clean install to download dependencies
-RUN mvn clean install -DskipTests
+RUN mvn clean 
 
 # Expose any ports the app is expecting in runtime
 # EXPOSE 8096
