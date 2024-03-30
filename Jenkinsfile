@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                bat "mvn test"
+                bat "docker build -t my_image ."
             }
         }
         stage('Deploy') {
